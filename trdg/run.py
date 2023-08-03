@@ -54,7 +54,7 @@ def parse_arguments():
         type=str,
         nargs="?",
         help="The language to use, should be fr (French), en (English), es (Spanish), de (German), ar (Arabic), cn (Chinese), ja (Japanese) or hi (Hindi)",
-        default="en",
+        default="vi",
     )
     parser.add_argument(
         "-c",
